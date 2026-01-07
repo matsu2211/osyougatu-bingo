@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { CellData } from '../types.ts';
+import { CellData } from '../src/types.ts';
 
 interface BingoCellProps {
   data: CellData;

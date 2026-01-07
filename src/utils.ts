@@ -1,6 +1,6 @@
 
-import { ALL_ITEMS } from './constants.ts';
-import { CellData } from './types.ts';
+import { ALL_ITEMS } from './src/constants.ts';
+import { CellData } from './src/types.ts';
 
 export const shuffleArray = <T,>(array: T[]): T[] => {
   const newArray = [...array];

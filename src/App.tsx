@@ -2,8 +2,8 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { CellData, BingoState } from './types.ts';
 import { STORAGE_KEY } from './constants.ts';
-import { generateNewBingo } from './utils.ts';
-import BingoCell from './components/BingoCell.tsx';
+import { generateNewBingo } from './utils';
+import BingoCell from './components/BingoCell';
 
 const App: React.FC = () => {
   const [cells, setCells] = useState<CellData[]>([]);
